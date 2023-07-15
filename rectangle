@@ -1,0 +1,12 @@
+struct Rectangle {
+    var width = 0
+    var height = 0
+    func area() -> Int {
+        return width * height
+    }
+}
+
+var rect = Rectangle()
+rect.width = 5
+rect.height = 10
+print(rect.area())
